@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF3904C120AD4F7E0090B267 /* libm4ri.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3904C020AD4F7E0090B267 /* libm4ri.a */; };
+		DF4372E720AD6AD500F3F472 /* trailCoreInKernelAtC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4372E620AD6AD400F3F472 /* trailCoreInKernelAtC.cpp */; };
+		DF4372EA20AD6B1500F3F472 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4372E920AD6B1500F3F472 /* misc.cpp */; };
+		DF4372ED20AD6B3500F3F472 /* kkeccak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4372EB20AD6B3400F3F472 /* kkeccak.cpp */; };
 		DFEF11D120AD3A2C00B48494 /* Keccak-fPropagation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117920AD3A1600B48494 /* Keccak-fPropagation.cpp */; };
 		DFEF11D220AD3A2C00B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117B20AD3A1700B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp */; };
 		DFEF11D320AD3A2C00B48494 /* Ketjev2-test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117C20AD3A1700B48494 /* Ketjev2-test.cpp */; };
@@ -65,6 +69,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF3904C020AD4F7E0090B267 /* libm4ri.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libm4ri.a; path = ../../../../../../usr/local/lib/libm4ri.a; sourceTree = "<group>"; };
+		DF3904C220AD4FDE0090B267 /* libm4ri.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = libm4ri.la; path = ../../../../../../usr/local/lib/libm4ri.la; sourceTree = "<group>"; };
+		DF3904C320AD4FDE0090B267 /* libm4ri-0.0.20140914.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libm4ri-0.0.20140914.dylib"; path = "../../../../../../usr/local/lib/libm4ri-0.0.20140914.dylib"; sourceTree = "<group>"; };
+		DF4372E520AD6AC900F3F472 /* trailCoreInKernelAtC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trailCoreInKernelAtC.h; sourceTree = "<group>"; };
+		DF4372E620AD6AD400F3F472 /* trailCoreInKernelAtC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = trailCoreInKernelAtC.cpp; sourceTree = "<group>"; };
+		DF4372E820AD6B1400F3F472 /* misc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		DF4372E920AD6B1500F3F472 /* misc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = misc.cpp; sourceTree = "<group>"; };
+		DF4372EB20AD6B3400F3F472 /* kkeccak.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kkeccak.cpp; sourceTree = "<group>"; };
+		DF4372EC20AD6B3400F3F472 /* kkeccak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kkeccak.h; sourceTree = "<group>"; };
 		DFEF116F20AD390500B48494 /* InKernelAtCTrailCoreSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InKernelAtCTrailCoreSearch; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEF117920AD3A1600B48494 /* Keccak-fPropagation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fPropagation.cpp"; sourceTree = "<group>"; };
 		DFEF117A20AD3A1600B48494 /* duplex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = duplex.h; sourceTree = "<group>"; };
@@ -161,17 +174,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3904C120AD4F7E0090B267 /* libm4ri.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF3904BF20AD4F7E0090B267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF3904C320AD4FDE0090B267 /* libm4ri-0.0.20140914.dylib */,
+				DF3904C220AD4FDE0090B267 /* libm4ri.la */,
+				DF3904C020AD4F7E0090B267 /* libm4ri.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFEF116620AD390500B48494 = {
 			isa = PBXGroup;
 			children = (
 				DFEF117120AD390500B48494 /* InKernelAtCTrailCoreSearch */,
 				DFEF117020AD390500B48494 /* Products */,
+				DF3904BF20AD4F7E0090B267 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,7 +281,6 @@
 				DFEF11CA20AD3A2A00B48494 /* Kravatte.h */,
 				DFEF119920AD3A1C00B48494 /* KravatteModes-test.cpp */,
 				DFEF118520AD3A1800B48494 /* KravatteModes-test.h */,
-				DFEF11AC20AD3A2100B48494 /* main.cpp */,
 				DFEF11C320AD3A2800B48494 /* monkey.cpp */,
 				DFEF118C20AD3A1900B48494 /* monkey.h */,
 				DFEF119520AD3A1B00B48494 /* Motorist.cpp */,
@@ -274,6 +298,13 @@
 				DFEF11CE20AD3A2B00B48494 /* translationsymmetry.h */,
 				DFEF118820AD3A1800B48494 /* Tree.h */,
 				DFEF118120AD3A1700B48494 /* types.h */,
+				DF4372EB20AD6B3400F3F472 /* kkeccak.cpp */,
+				DF4372EC20AD6B3400F3F472 /* kkeccak.h */,
+				DF4372E920AD6B1500F3F472 /* misc.cpp */,
+				DF4372E820AD6B1400F3F472 /* misc.h */,
+				DFEF11AC20AD3A2100B48494 /* main.cpp */,
+				DF4372E520AD6AC900F3F472 /* trailCoreInKernelAtC.h */,
+				DF4372E620AD6AD400F3F472 /* trailCoreInKernelAtC.cpp */,
 			);
 			path = InKernelAtCTrailCoreSearch;
 			sourceTree = "<group>";
@@ -344,6 +375,7 @@
 				DFEF11E020AD3A2C00B48494 /* KravatteModes-test.cpp in Sources */,
 				DFEF11ED20AD3A2C00B48494 /* Keccak.cpp in Sources */,
 				DFEF11E220AD3A2C00B48494 /* Keccak-fTrails.cpp in Sources */,
+				DF4372ED20AD6B3500F3F472 /* kkeccak.cpp in Sources */,
 				DFEF11E620AD3A2C00B48494 /* Keccak-fDisplay.cpp in Sources */,
 				DFEF11EA20AD3A2C00B48494 /* sponge.cpp in Sources */,
 				DFEF11DE20AD3A2C00B48494 /* Keccak-fTrailCoreInKernelAtC.cpp in Sources */,
@@ -353,6 +385,7 @@
 				DFEF11F020AD3A2C00B48494 /* progress.cpp in Sources */,
 				DFEF11E920AD3A2C00B48494 /* main.cpp in Sources */,
 				DFEF11D120AD3A2C00B48494 /* Keccak-fPropagation.cpp in Sources */,
+				DF4372E720AD6AD500F3F472 /* trailCoreInKernelAtC.cpp in Sources */,
 				DFEF11F320AD3A2C00B48494 /* Kravatte-test.cpp in Sources */,
 				DFEF11F520AD3A2C00B48494 /* monkey.cpp in Sources */,
 				DFEF11F720AD3A2C00B48494 /* bitstring.cpp in Sources */,
@@ -372,6 +405,7 @@
 				DFEF11DA20AD3A2C00B48494 /* genKATShortMsg.cpp in Sources */,
 				DFEF11EB20AD3A2C00B48494 /* KeccakCrunchyContest.cpp in Sources */,
 				DFEF11D920AD3A2C00B48494 /* Ketjev2.cpp in Sources */,
+				DF4372EA20AD6B1500F3F472 /* misc.cpp in Sources */,
 				DFEF11FA20AD3A2C00B48494 /* transformations.cpp in Sources */,
 				DFEF11D820AD3A2C00B48494 /* Keccak-fDCLC.cpp in Sources */,
 				DFEF11F220AD3A2C00B48494 /* Keyakv2-test.cpp in Sources */,
@@ -387,7 +421,7 @@
 		DFEF117420AD390500B48494 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -432,9 +466,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lm4ri*";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -442,7 +480,7 @@
 		DFEF117520AD390500B48494 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -481,8 +519,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lm4ri*";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -490,7 +532,12 @@
 		DFEF117720AD390500B48494 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -498,7 +545,12 @@
 		DFEF117820AD390500B48494 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
