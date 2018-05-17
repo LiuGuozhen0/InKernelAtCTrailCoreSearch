@@ -7,7 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DFEF117320AD390500B48494 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117220AD390500B48494 /* main.cpp */; };
+		DFEF11D120AD3A2C00B48494 /* Keccak-fPropagation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117920AD3A1600B48494 /* Keccak-fPropagation.cpp */; };
+		DFEF11D220AD3A2C00B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117B20AD3A1700B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp */; };
+		DFEF11D320AD3A2C00B48494 /* Ketjev2-test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117C20AD3A1700B48494 /* Ketjev2-test.cpp */; };
+		DFEF11D420AD3A2C00B48494 /* Keccak-fParts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117D20AD3A1700B48494 /* Keccak-fParts.cpp */; };
+		DFEF11D520AD3A2C00B48494 /* duplex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF118320AD3A1800B48494 /* duplex.cpp */; };
+		DFEF11D620AD3A2C00B48494 /* Keccak-fParityBounds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF118920AD3A1900B48494 /* Keccak-fParityBounds.cpp */; };
+		DFEF11D720AD3A2C00B48494 /* Keccak-fTrailCoreRows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF118A20AD3A1900B48494 /* Keccak-fTrailCoreRows.cpp */; };
+		DFEF11D820AD3A2C00B48494 /* Keccak-fDCLC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF118D20AD3A1900B48494 /* Keccak-fDCLC.cpp */; };
+		DFEF11D920AD3A2C00B48494 /* Ketjev2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF118F20AD3A1A00B48494 /* Ketjev2.cpp */; };
+		DFEF11DA20AD3A2C00B48494 /* genKATShortMsg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF119220AD3A1A00B48494 /* genKATShortMsg.cpp */; };
+		DFEF11DB20AD3A2C00B48494 /* Keccak-fTrailExtension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF119320AD3A1A00B48494 /* Keccak-fTrailExtension.cpp */; };
+		DFEF11DC20AD3A2C00B48494 /* Keyakv2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF119420AD3A1B00B48494 /* Keyakv2.cpp */; };
+		DFEF11DD20AD3A2C00B48494 /* Motorist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF119520AD3A1B00B48494 /* Motorist.cpp */; };
+		DFEF11DE20AD3A2C00B48494 /* Keccak-fTrailCoreInKernelAtC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF119720AD3A1C00B48494 /* Keccak-fTrailCoreInKernelAtC.cpp */; };
+		DFEF11DF20AD3A2C00B48494 /* Kravatte.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF119820AD3A1C00B48494 /* Kravatte.cpp */; };
+		DFEF11E020AD3A2C00B48494 /* KravatteModes-test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF119920AD3A1C00B48494 /* KravatteModes-test.cpp */; };
+		DFEF11E120AD3A2C00B48494 /* Farfalle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF119A20AD3A1D00B48494 /* Farfalle.cpp */; };
+		DFEF11E220AD3A2C00B48494 /* Keccak-fTrails.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF119E20AD3A1E00B48494 /* Keccak-fTrails.cpp */; };
+		DFEF11E320AD3A2C00B48494 /* spongetree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11A420AD3A2000B48494 /* spongetree.cpp */; };
+		DFEF11E420AD3A2C00B48494 /* Keccak-fCodeGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11A520AD3A2000B48494 /* Keccak-fCodeGen.cpp */; };
+		DFEF11E520AD3A2C00B48494 /* Keccak-fEquations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11A620AD3A2000B48494 /* Keccak-fEquations.cpp */; };
+		DFEF11E620AD3A2C00B48494 /* Keccak-fDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11A820AD3A2000B48494 /* Keccak-fDisplay.cpp */; };
+		DFEF11E720AD3A2C00B48494 /* Keccak-fParity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11A920AD3A2100B48494 /* Keccak-fParity.cpp */; };
+		DFEF11E820AD3A2C00B48494 /* Keccak-fDCEquations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11AB20AD3A2100B48494 /* Keccak-fDCEquations.cpp */; };
+		DFEF11E920AD3A2C00B48494 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11AC20AD3A2100B48494 /* main.cpp */; };
+		DFEF11EA20AD3A2C00B48494 /* sponge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11AE20AD3A2200B48494 /* sponge.cpp */; };
+		DFEF11EB20AD3A2C00B48494 /* KeccakCrunchyContest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11B020AD3A2300B48494 /* KeccakCrunchyContest.cpp */; };
+		DFEF11EC20AD3A2C00B48494 /* Keccak-fAffineBases.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11B220AD3A2300B48494 /* Keccak-fAffineBases.cpp */; };
+		DFEF11ED20AD3A2C00B48494 /* Keccak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11B520AD3A2400B48494 /* Keccak.cpp */; };
+		DFEF11EE20AD3A2C00B48494 /* padding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11B620AD3A2400B48494 /* padding.cpp */; };
+		DFEF11EF20AD3A2C00B48494 /* Keccak-fPositions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11B720AD3A2500B48494 /* Keccak-fPositions.cpp */; };
+		DFEF11F020AD3A2C00B48494 /* progress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11BA20AD3A2500B48494 /* progress.cpp */; };
+		DFEF11F120AD3A2C00B48494 /* Keccak-f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11BC20AD3A2600B48494 /* Keccak-f.cpp */; };
+		DFEF11F220AD3A2C00B48494 /* Keyakv2-test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11BF20AD3A2700B48494 /* Keyakv2-test.cpp */; };
+		DFEF11F320AD3A2C00B48494 /* Kravatte-test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11C020AD3A2700B48494 /* Kravatte-test.cpp */; };
+		DFEF11F420AD3A2C00B48494 /* Keccak-f25LUT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11C220AD3A2800B48494 /* Keccak-f25LUT.cpp */; };
+		DFEF11F520AD3A2C00B48494 /* monkey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11C320AD3A2800B48494 /* monkey.cpp */; };
+		DFEF11F620AD3A2C00B48494 /* Keccak-fTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11C420AD3A2800B48494 /* Keccak-fTree.cpp */; };
+		DFEF11F720AD3A2C00B48494 /* bitstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11C520AD3A2900B48494 /* bitstring.cpp */; };
+		DFEF11F820AD3A2C00B48494 /* Keccak-fState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11C620AD3A2900B48494 /* Keccak-fState.cpp */; };
+		DFEF11F920AD3A2C00B48494 /* Keccak-fTrailCore3Rounds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11C720AD3A2900B48494 /* Keccak-fTrailCore3Rounds.cpp */; };
+		DFEF11FA20AD3A2C00B48494 /* transformations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11CD20AD3A2B00B48494 /* transformations.cpp */; };
+		DFEF11FB20AD3A2C00B48494 /* Keccak-fTrailCoreParity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF11D020AD3A2C00B48494 /* Keccak-fTrailCoreParity.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +66,94 @@
 
 /* Begin PBXFileReference section */
 		DFEF116F20AD390500B48494 /* InKernelAtCTrailCoreSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InKernelAtCTrailCoreSearch; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFEF117220AD390500B48494 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DFEF117920AD3A1600B48494 /* Keccak-fPropagation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fPropagation.cpp"; sourceTree = "<group>"; };
+		DFEF117A20AD3A1600B48494 /* duplex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = duplex.h; sourceTree = "<group>"; };
+		DFEF117B20AD3A1700B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrailExtensionBasedOnParity.cpp"; sourceTree = "<group>"; };
+		DFEF117C20AD3A1700B48494 /* Ketjev2-test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Ketjev2-test.cpp"; sourceTree = "<group>"; };
+		DFEF117D20AD3A1700B48494 /* Keccak-fParts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fParts.cpp"; sourceTree = "<group>"; };
+		DFEF117E20AD3A1700B48494 /* Keyakv2-test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keyakv2-test.h"; sourceTree = "<group>"; };
+		DFEF117F20AD3A1700B48494 /* bitstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitstring.h; sourceTree = "<group>"; };
+		DFEF118020AD3A1700B48494 /* Keccak-fDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fDisplay.h"; sourceTree = "<group>"; };
+		DFEF118120AD3A1700B48494 /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		DFEF118220AD3A1700B48494 /* Keccak-fParityBounds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fParityBounds.h"; sourceTree = "<group>"; };
+		DFEF118320AD3A1800B48494 /* duplex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = duplex.cpp; sourceTree = "<group>"; };
+		DFEF118420AD3A1800B48494 /* sponge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sponge.h; sourceTree = "<group>"; };
+		DFEF118520AD3A1800B48494 /* KravatteModes-test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KravatteModes-test.h"; sourceTree = "<group>"; };
+		DFEF118620AD3A1800B48494 /* Keccak-fTrailCore3Rounds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrailCore3Rounds.h"; sourceTree = "<group>"; };
+		DFEF118720AD3A1800B48494 /* Keccak-fParity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fParity.h"; sourceTree = "<group>"; };
+		DFEF118820AD3A1800B48494 /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		DFEF118920AD3A1900B48494 /* Keccak-fParityBounds.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fParityBounds.cpp"; sourceTree = "<group>"; };
+		DFEF118A20AD3A1900B48494 /* Keccak-fTrailCoreRows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrailCoreRows.cpp"; sourceTree = "<group>"; };
+		DFEF118B20AD3A1900B48494 /* spongetree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spongetree.h; sourceTree = "<group>"; };
+		DFEF118C20AD3A1900B48494 /* monkey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = monkey.h; sourceTree = "<group>"; };
+		DFEF118D20AD3A1900B48494 /* Keccak-fDCLC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fDCLC.cpp"; sourceTree = "<group>"; };
+		DFEF118E20AD3A1900B48494 /* Keccak-fTrailExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrailExtension.h"; sourceTree = "<group>"; };
+		DFEF118F20AD3A1A00B48494 /* Ketjev2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ketjev2.cpp; sourceTree = "<group>"; };
+		DFEF119020AD3A1A00B48494 /* Keyakv2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Keyakv2.h; sourceTree = "<group>"; };
+		DFEF119120AD3A1A00B48494 /* KeccakCrunchyContest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeccakCrunchyContest.h; sourceTree = "<group>"; };
+		DFEF119220AD3A1A00B48494 /* genKATShortMsg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = genKATShortMsg.cpp; sourceTree = "<group>"; };
+		DFEF119320AD3A1A00B48494 /* Keccak-fTrailExtension.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrailExtension.cpp"; sourceTree = "<group>"; };
+		DFEF119420AD3A1B00B48494 /* Keyakv2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Keyakv2.cpp; sourceTree = "<group>"; };
+		DFEF119520AD3A1B00B48494 /* Motorist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Motorist.cpp; sourceTree = "<group>"; };
+		DFEF119620AD3A1B00B48494 /* Keccak-fPositions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fPositions.h"; sourceTree = "<group>"; };
+		DFEF119720AD3A1C00B48494 /* Keccak-fTrailCoreInKernelAtC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrailCoreInKernelAtC.cpp"; sourceTree = "<group>"; };
+		DFEF119820AD3A1C00B48494 /* Kravatte.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Kravatte.cpp; sourceTree = "<group>"; };
+		DFEF119920AD3A1C00B48494 /* KravatteModes-test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "KravatteModes-test.cpp"; sourceTree = "<group>"; };
+		DFEF119A20AD3A1D00B48494 /* Farfalle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Farfalle.cpp; sourceTree = "<group>"; };
+		DFEF119B20AD3A1D00B48494 /* Keccak-fPropagation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fPropagation.h"; sourceTree = "<group>"; };
+		DFEF119C20AD3A1D00B48494 /* Keccak-fTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTree.h"; sourceTree = "<group>"; };
+		DFEF119D20AD3A1E00B48494 /* Keccak-fTrailCoreParity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrailCoreParity.h"; sourceTree = "<group>"; };
+		DFEF119E20AD3A1E00B48494 /* Keccak-fTrails.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrails.cpp"; sourceTree = "<group>"; };
+		DFEF119F20AD3A1E00B48494 /* Keccak-f25LUT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-f25LUT.h"; sourceTree = "<group>"; };
+		DFEF11A020AD3A1F00B48494 /* Keccak-fTrails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrails.h"; sourceTree = "<group>"; };
+		DFEF11A120AD3A1F00B48494 /* Keccak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Keccak.h; sourceTree = "<group>"; };
+		DFEF11A220AD3A1F00B48494 /* KeccakTools.dox */ = {isa = PBXFileReference; lastKnownFileType = text; path = KeccakTools.dox; sourceTree = "<group>"; };
+		DFEF11A320AD3A1F00B48494 /* Ketjev2-test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ketjev2-test.h"; sourceTree = "<group>"; };
+		DFEF11A420AD3A2000B48494 /* spongetree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spongetree.cpp; sourceTree = "<group>"; };
+		DFEF11A520AD3A2000B48494 /* Keccak-fCodeGen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fCodeGen.cpp"; sourceTree = "<group>"; };
+		DFEF11A620AD3A2000B48494 /* Keccak-fEquations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fEquations.cpp"; sourceTree = "<group>"; };
+		DFEF11A720AD3A2000B48494 /* Keccak-fTrailCoreRows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrailCoreRows.h"; sourceTree = "<group>"; };
+		DFEF11A820AD3A2000B48494 /* Keccak-fDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fDisplay.cpp"; sourceTree = "<group>"; };
+		DFEF11A920AD3A2100B48494 /* Keccak-fParity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fParity.cpp"; sourceTree = "<group>"; };
+		DFEF11AA20AD3A2100B48494 /* padding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = padding.h; sourceTree = "<group>"; };
+		DFEF11AB20AD3A2100B48494 /* Keccak-fDCEquations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fDCEquations.cpp"; sourceTree = "<group>"; };
+		DFEF11AC20AD3A2100B48494 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../../../Documents/GitHub/TrailSearch-KeccakToolsExtensions/main.cpp"; sourceTree = "<group>"; };
+		DFEF11AD20AD3A2200B48494 /* Motorist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Motorist.h; sourceTree = "<group>"; };
+		DFEF11AE20AD3A2200B48494 /* sponge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sponge.cpp; sourceTree = "<group>"; };
+		DFEF11AF20AD3A2200B48494 /* Keccak-fState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fState.h"; sourceTree = "<group>"; };
+		DFEF11B020AD3A2300B48494 /* KeccakCrunchyContest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KeccakCrunchyContest.cpp; sourceTree = "<group>"; };
+		DFEF11B120AD3A2300B48494 /* Farfalle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Farfalle.h; sourceTree = "<group>"; };
+		DFEF11B220AD3A2300B48494 /* Keccak-fAffineBases.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fAffineBases.cpp"; sourceTree = "<group>"; };
+		DFEF11B320AD3A2300B48494 /* Keccak-fTrailCoreInKernelAtC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrailCoreInKernelAtC.h"; sourceTree = "<group>"; };
+		DFEF11B420AD3A2400B48494 /* Keccak-fDCLC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fDCLC.h"; sourceTree = "<group>"; };
+		DFEF11B520AD3A2400B48494 /* Keccak.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Keccak.cpp; sourceTree = "<group>"; };
+		DFEF11B620AD3A2400B48494 /* padding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = padding.cpp; sourceTree = "<group>"; };
+		DFEF11B720AD3A2500B48494 /* Keccak-fPositions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fPositions.cpp"; sourceTree = "<group>"; };
+		DFEF11B820AD3A2500B48494 /* Keccak-fTrailExtensionBasedOnParity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrailExtensionBasedOnParity.h"; sourceTree = "<group>"; };
+		DFEF11B920AD3A2500B48494 /* Keccak-fDCEquations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fDCEquations.h"; sourceTree = "<group>"; };
+		DFEF11BA20AD3A2500B48494 /* progress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = progress.cpp; sourceTree = "<group>"; };
+		DFEF11BB20AD3A2600B48494 /* transformations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transformations.h; sourceTree = "<group>"; };
+		DFEF11BC20AD3A2600B48494 /* Keccak-f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-f.cpp"; sourceTree = "<group>"; };
+		DFEF11BD20AD3A2600B48494 /* Keccak-fEquations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fEquations.h"; sourceTree = "<group>"; };
+		DFEF11BE20AD3A2700B48494 /* Ketjev2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ketjev2.h; sourceTree = "<group>"; };
+		DFEF11BF20AD3A2700B48494 /* Keyakv2-test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keyakv2-test.cpp"; sourceTree = "<group>"; };
+		DFEF11C020AD3A2700B48494 /* Kravatte-test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kravatte-test.cpp"; sourceTree = "<group>"; };
+		DFEF11C120AD3A2700B48494 /* Keccak-fParts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fParts.h"; sourceTree = "<group>"; };
+		DFEF11C220AD3A2800B48494 /* Keccak-f25LUT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-f25LUT.cpp"; sourceTree = "<group>"; };
+		DFEF11C320AD3A2800B48494 /* monkey.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = monkey.cpp; sourceTree = "<group>"; };
+		DFEF11C420AD3A2800B48494 /* Keccak-fTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTree.cpp"; sourceTree = "<group>"; };
+		DFEF11C520AD3A2900B48494 /* bitstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bitstring.cpp; sourceTree = "<group>"; };
+		DFEF11C620AD3A2900B48494 /* Keccak-fState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fState.cpp"; sourceTree = "<group>"; };
+		DFEF11C720AD3A2900B48494 /* Keccak-fTrailCore3Rounds.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrailCore3Rounds.cpp"; sourceTree = "<group>"; };
+		DFEF11C820AD3A2900B48494 /* Keccak-fAffineBases.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fAffineBases.h"; sourceTree = "<group>"; };
+		DFEF11C920AD3A2A00B48494 /* Keccak-f.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-f.h"; sourceTree = "<group>"; };
+		DFEF11CA20AD3A2A00B48494 /* Kravatte.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kravatte.h; sourceTree = "<group>"; };
+		DFEF11CB20AD3A2A00B48494 /* Kravatte-test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kravatte-test.h"; sourceTree = "<group>"; };
+		DFEF11CC20AD3A2B00B48494 /* progress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = progress.h; sourceTree = "<group>"; };
+		DFEF11CD20AD3A2B00B48494 /* transformations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = transformations.cpp; sourceTree = "<group>"; };
+		DFEF11CE20AD3A2B00B48494 /* translationsymmetry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = translationsymmetry.h; sourceTree = "<group>"; };
+		DFEF11CF20AD3A2C00B48494 /* Keccak-fCodeGen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fCodeGen.h"; sourceTree = "<group>"; };
+		DFEF11D020AD3A2C00B48494 /* Keccak-fTrailCoreParity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrailCoreParity.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +186,94 @@
 		DFEF117120AD390500B48494 /* InKernelAtCTrailCoreSearch */ = {
 			isa = PBXGroup;
 			children = (
-				DFEF117220AD390500B48494 /* main.cpp */,
+				DFEF11C520AD3A2900B48494 /* bitstring.cpp */,
+				DFEF117F20AD3A1700B48494 /* bitstring.h */,
+				DFEF118320AD3A1800B48494 /* duplex.cpp */,
+				DFEF117A20AD3A1600B48494 /* duplex.h */,
+				DFEF119A20AD3A1D00B48494 /* Farfalle.cpp */,
+				DFEF11B120AD3A2300B48494 /* Farfalle.h */,
+				DFEF119220AD3A1A00B48494 /* genKATShortMsg.cpp */,
+				DFEF11BC20AD3A2600B48494 /* Keccak-f.cpp */,
+				DFEF11C920AD3A2A00B48494 /* Keccak-f.h */,
+				DFEF11C220AD3A2800B48494 /* Keccak-f25LUT.cpp */,
+				DFEF119F20AD3A1E00B48494 /* Keccak-f25LUT.h */,
+				DFEF11B220AD3A2300B48494 /* Keccak-fAffineBases.cpp */,
+				DFEF11C820AD3A2900B48494 /* Keccak-fAffineBases.h */,
+				DFEF11A520AD3A2000B48494 /* Keccak-fCodeGen.cpp */,
+				DFEF11CF20AD3A2C00B48494 /* Keccak-fCodeGen.h */,
+				DFEF11AB20AD3A2100B48494 /* Keccak-fDCEquations.cpp */,
+				DFEF11B920AD3A2500B48494 /* Keccak-fDCEquations.h */,
+				DFEF118D20AD3A1900B48494 /* Keccak-fDCLC.cpp */,
+				DFEF11B420AD3A2400B48494 /* Keccak-fDCLC.h */,
+				DFEF11A820AD3A2000B48494 /* Keccak-fDisplay.cpp */,
+				DFEF118020AD3A1700B48494 /* Keccak-fDisplay.h */,
+				DFEF11A620AD3A2000B48494 /* Keccak-fEquations.cpp */,
+				DFEF11BD20AD3A2600B48494 /* Keccak-fEquations.h */,
+				DFEF11A920AD3A2100B48494 /* Keccak-fParity.cpp */,
+				DFEF118720AD3A1800B48494 /* Keccak-fParity.h */,
+				DFEF118920AD3A1900B48494 /* Keccak-fParityBounds.cpp */,
+				DFEF118220AD3A1700B48494 /* Keccak-fParityBounds.h */,
+				DFEF117D20AD3A1700B48494 /* Keccak-fParts.cpp */,
+				DFEF11C120AD3A2700B48494 /* Keccak-fParts.h */,
+				DFEF11B720AD3A2500B48494 /* Keccak-fPositions.cpp */,
+				DFEF119620AD3A1B00B48494 /* Keccak-fPositions.h */,
+				DFEF117920AD3A1600B48494 /* Keccak-fPropagation.cpp */,
+				DFEF119B20AD3A1D00B48494 /* Keccak-fPropagation.h */,
+				DFEF11C620AD3A2900B48494 /* Keccak-fState.cpp */,
+				DFEF11AF20AD3A2200B48494 /* Keccak-fState.h */,
+				DFEF11C720AD3A2900B48494 /* Keccak-fTrailCore3Rounds.cpp */,
+				DFEF118620AD3A1800B48494 /* Keccak-fTrailCore3Rounds.h */,
+				DFEF119720AD3A1C00B48494 /* Keccak-fTrailCoreInKernelAtC.cpp */,
+				DFEF11B320AD3A2300B48494 /* Keccak-fTrailCoreInKernelAtC.h */,
+				DFEF11D020AD3A2C00B48494 /* Keccak-fTrailCoreParity.cpp */,
+				DFEF119D20AD3A1E00B48494 /* Keccak-fTrailCoreParity.h */,
+				DFEF118A20AD3A1900B48494 /* Keccak-fTrailCoreRows.cpp */,
+				DFEF11A720AD3A2000B48494 /* Keccak-fTrailCoreRows.h */,
+				DFEF119320AD3A1A00B48494 /* Keccak-fTrailExtension.cpp */,
+				DFEF118E20AD3A1900B48494 /* Keccak-fTrailExtension.h */,
+				DFEF117B20AD3A1700B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp */,
+				DFEF11B820AD3A2500B48494 /* Keccak-fTrailExtensionBasedOnParity.h */,
+				DFEF119E20AD3A1E00B48494 /* Keccak-fTrails.cpp */,
+				DFEF11A020AD3A1F00B48494 /* Keccak-fTrails.h */,
+				DFEF11C420AD3A2800B48494 /* Keccak-fTree.cpp */,
+				DFEF119C20AD3A1D00B48494 /* Keccak-fTree.h */,
+				DFEF11B520AD3A2400B48494 /* Keccak.cpp */,
+				DFEF11A120AD3A1F00B48494 /* Keccak.h */,
+				DFEF11B020AD3A2300B48494 /* KeccakCrunchyContest.cpp */,
+				DFEF119120AD3A1A00B48494 /* KeccakCrunchyContest.h */,
+				DFEF11A220AD3A1F00B48494 /* KeccakTools.dox */,
+				DFEF117C20AD3A1700B48494 /* Ketjev2-test.cpp */,
+				DFEF11A320AD3A1F00B48494 /* Ketjev2-test.h */,
+				DFEF118F20AD3A1A00B48494 /* Ketjev2.cpp */,
+				DFEF11BE20AD3A2700B48494 /* Ketjev2.h */,
+				DFEF11BF20AD3A2700B48494 /* Keyakv2-test.cpp */,
+				DFEF117E20AD3A1700B48494 /* Keyakv2-test.h */,
+				DFEF119420AD3A1B00B48494 /* Keyakv2.cpp */,
+				DFEF119020AD3A1A00B48494 /* Keyakv2.h */,
+				DFEF11C020AD3A2700B48494 /* Kravatte-test.cpp */,
+				DFEF11CB20AD3A2A00B48494 /* Kravatte-test.h */,
+				DFEF119820AD3A1C00B48494 /* Kravatte.cpp */,
+				DFEF11CA20AD3A2A00B48494 /* Kravatte.h */,
+				DFEF119920AD3A1C00B48494 /* KravatteModes-test.cpp */,
+				DFEF118520AD3A1800B48494 /* KravatteModes-test.h */,
+				DFEF11AC20AD3A2100B48494 /* main.cpp */,
+				DFEF11C320AD3A2800B48494 /* monkey.cpp */,
+				DFEF118C20AD3A1900B48494 /* monkey.h */,
+				DFEF119520AD3A1B00B48494 /* Motorist.cpp */,
+				DFEF11AD20AD3A2200B48494 /* Motorist.h */,
+				DFEF11B620AD3A2400B48494 /* padding.cpp */,
+				DFEF11AA20AD3A2100B48494 /* padding.h */,
+				DFEF11BA20AD3A2500B48494 /* progress.cpp */,
+				DFEF11CC20AD3A2B00B48494 /* progress.h */,
+				DFEF11AE20AD3A2200B48494 /* sponge.cpp */,
+				DFEF118420AD3A1800B48494 /* sponge.h */,
+				DFEF11A420AD3A2000B48494 /* spongetree.cpp */,
+				DFEF118B20AD3A1900B48494 /* spongetree.h */,
+				DFEF11CD20AD3A2B00B48494 /* transformations.cpp */,
+				DFEF11BB20AD3A2600B48494 /* transformations.h */,
+				DFEF11CE20AD3A2B00B48494 /* translationsymmetry.h */,
+				DFEF118820AD3A1800B48494 /* Tree.h */,
+				DFEF118120AD3A1700B48494 /* types.h */,
 			);
 			path = InKernelAtCTrailCoreSearch;
 			sourceTree = "<group>";
@@ -119,7 +335,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFEF117320AD390500B48494 /* main.cpp in Sources */,
+				DFEF11E520AD3A2C00B48494 /* Keccak-fEquations.cpp in Sources */,
+				DFEF11D220AD3A2C00B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp in Sources */,
+				DFEF11DB20AD3A2C00B48494 /* Keccak-fTrailExtension.cpp in Sources */,
+				DFEF11EF20AD3A2C00B48494 /* Keccak-fPositions.cpp in Sources */,
+				DFEF11F620AD3A2C00B48494 /* Keccak-fTree.cpp in Sources */,
+				DFEF11D520AD3A2C00B48494 /* duplex.cpp in Sources */,
+				DFEF11E020AD3A2C00B48494 /* KravatteModes-test.cpp in Sources */,
+				DFEF11ED20AD3A2C00B48494 /* Keccak.cpp in Sources */,
+				DFEF11E220AD3A2C00B48494 /* Keccak-fTrails.cpp in Sources */,
+				DFEF11E620AD3A2C00B48494 /* Keccak-fDisplay.cpp in Sources */,
+				DFEF11EA20AD3A2C00B48494 /* sponge.cpp in Sources */,
+				DFEF11DE20AD3A2C00B48494 /* Keccak-fTrailCoreInKernelAtC.cpp in Sources */,
+				DFEF11D320AD3A2C00B48494 /* Ketjev2-test.cpp in Sources */,
+				DFEF11EE20AD3A2C00B48494 /* padding.cpp in Sources */,
+				DFEF11F920AD3A2C00B48494 /* Keccak-fTrailCore3Rounds.cpp in Sources */,
+				DFEF11F020AD3A2C00B48494 /* progress.cpp in Sources */,
+				DFEF11E920AD3A2C00B48494 /* main.cpp in Sources */,
+				DFEF11D120AD3A2C00B48494 /* Keccak-fPropagation.cpp in Sources */,
+				DFEF11F320AD3A2C00B48494 /* Kravatte-test.cpp in Sources */,
+				DFEF11F520AD3A2C00B48494 /* monkey.cpp in Sources */,
+				DFEF11F720AD3A2C00B48494 /* bitstring.cpp in Sources */,
+				DFEF11D620AD3A2C00B48494 /* Keccak-fParityBounds.cpp in Sources */,
+				DFEF11F820AD3A2C00B48494 /* Keccak-fState.cpp in Sources */,
+				DFEF11F120AD3A2C00B48494 /* Keccak-f.cpp in Sources */,
+				DFEF11F420AD3A2C00B48494 /* Keccak-f25LUT.cpp in Sources */,
+				DFEF11DC20AD3A2C00B48494 /* Keyakv2.cpp in Sources */,
+				DFEF11E320AD3A2C00B48494 /* spongetree.cpp in Sources */,
+				DFEF11E420AD3A2C00B48494 /* Keccak-fCodeGen.cpp in Sources */,
+				DFEF11E120AD3A2C00B48494 /* Farfalle.cpp in Sources */,
+				DFEF11DD20AD3A2C00B48494 /* Motorist.cpp in Sources */,
+				DFEF11E720AD3A2C00B48494 /* Keccak-fParity.cpp in Sources */,
+				DFEF11EC20AD3A2C00B48494 /* Keccak-fAffineBases.cpp in Sources */,
+				DFEF11D420AD3A2C00B48494 /* Keccak-fParts.cpp in Sources */,
+				DFEF11E820AD3A2C00B48494 /* Keccak-fDCEquations.cpp in Sources */,
+				DFEF11DA20AD3A2C00B48494 /* genKATShortMsg.cpp in Sources */,
+				DFEF11EB20AD3A2C00B48494 /* KeccakCrunchyContest.cpp in Sources */,
+				DFEF11D920AD3A2C00B48494 /* Ketjev2.cpp in Sources */,
+				DFEF11FA20AD3A2C00B48494 /* transformations.cpp in Sources */,
+				DFEF11D820AD3A2C00B48494 /* Keccak-fDCLC.cpp in Sources */,
+				DFEF11F220AD3A2C00B48494 /* Keyakv2-test.cpp in Sources */,
+				DFEF11D720AD3A2C00B48494 /* Keccak-fTrailCoreRows.cpp in Sources */,
+				DFEF11DF20AD3A2C00B48494 /* Kravatte.cpp in Sources */,
+				DFEF11FB20AD3A2C00B48494 /* Keccak-fTrailCoreParity.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
