@@ -10,6 +10,10 @@
 		DF4372E720AD6AD500F3F472 /* trailCoreInKernelAtC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4372E620AD6AD400F3F472 /* trailCoreInKernelAtC.cpp */; };
 		DF4372EA20AD6B1500F3F472 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4372E920AD6B1500F3F472 /* misc.cpp */; };
 		DF4372ED20AD6B3500F3F472 /* kkeccak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4372EB20AD6B3400F3F472 /* kkeccak.cpp */; };
+		DF74DA2820B260B900DB892D /* libm4ri-0.0.20140914.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3904C320AD4FDE0090B267 /* libm4ri-0.0.20140914.dylib */; };
+		DF74DA2920B260B900DB892D /* libm4ri.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3904C020AD4F7E0090B267 /* libm4ri.a */; };
+		DF74DA2A20B260B900DB892D /* libm4ri-0.0.20140914.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3904C320AD4FDE0090B267 /* libm4ri-0.0.20140914.dylib */; };
+		DF74DA2B20B260B900DB892D /* libm4ri.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3904C220AD4FDE0090B267 /* libm4ri.la */; };
 		DFEF11D120AD3A2C00B48494 /* Keccak-fPropagation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117920AD3A1600B48494 /* Keccak-fPropagation.cpp */; };
 		DFEF11D220AD3A2C00B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117B20AD3A1700B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp */; };
 		DFEF11D320AD3A2C00B48494 /* Ketjev2-test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117C20AD3A1700B48494 /* Ketjev2-test.cpp */; };
@@ -173,6 +177,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF74DA2820B260B900DB892D /* libm4ri-0.0.20140914.dylib in Frameworks */,
+				DF74DA2920B260B900DB892D /* libm4ri.a in Frameworks */,
+				DF74DA2A20B260B900DB892D /* libm4ri-0.0.20140914.dylib in Frameworks */,
+				DF74DA2B20B260B900DB892D /* libm4ri.la in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +478,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-lm4ri*";
+				OTHER_LDFLAGS = "-lm4ri";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -522,7 +530,7 @@
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "-lm4ri*";
+				OTHER_LDFLAGS = "-lm4ri";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -530,9 +538,9 @@
 		DFEF117720AD390500B48494 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib/;
 				HEADER_SEARCH_PATHS = /usr/local/include/;
 				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				OTHER_LDFLAGS = "";
@@ -543,9 +551,9 @@
 		DFEF117820AD390500B48494 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib/;
 				HEADER_SEARCH_PATHS = /usr/local/include/;
 				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				OTHER_LDFLAGS = "";
