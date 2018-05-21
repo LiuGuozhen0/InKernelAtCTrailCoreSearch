@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF3904C120AD4F7E0090B267 /* libm4ri.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3904C020AD4F7E0090B267 /* libm4ri.a */; };
 		DF4372E720AD6AD500F3F472 /* trailCoreInKernelAtC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4372E620AD6AD400F3F472 /* trailCoreInKernelAtC.cpp */; };
 		DF4372EA20AD6B1500F3F472 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4372E920AD6B1500F3F472 /* misc.cpp */; };
 		DF4372ED20AD6B3500F3F472 /* kkeccak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4372EB20AD6B3400F3F472 /* kkeccak.cpp */; };
@@ -174,7 +173,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3904C120AD4F7E0090B267 /* libm4ri.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
