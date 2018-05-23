@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF74DA3020B266BC00DB892D /* libm4ri.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DF74DA2D20B266BC00DB892D /* libm4ri.la */; };
+		DF74DA3120B266BC00DB892D /* libm4ri.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF74DA2E20B266BC00DB892D /* libm4ri.a */; };
+		DF74DA3220B266BC00DB892D /* libm4ri-0.0.20140914.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF74DA2F20B266BC00DB892D /* libm4ri-0.0.20140914.dylib */; };
+		DF74DA3520B2684300DB892D /* myKeccak-fTrailCoreInKernelAtC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF74DA3320B2684300DB892D /* myKeccak-fTrailCoreInKernelAtC.cpp */; };
+		DF74DA3820B2696400DB892D /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF74DA3720B2696300DB892D /* misc.cpp */; };
+		DF74DA3B20B26F9D00DB892D /* kkeccak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF74DA3920B26F9C00DB892D /* kkeccak.cpp */; };
+		DF74DA3E20B280D600DB892D /* myParts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF74DA3C20B280D600DB892D /* myParts.cpp */; };
+		DF74DA4120B280FA00DB892D /* myPositions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF74DA3F20B280FA00DB892D /* myPositions.cpp */; };
 		DFEF11D120AD3A2C00B48494 /* Keccak-fPropagation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117920AD3A1600B48494 /* Keccak-fPropagation.cpp */; };
 		DFEF11D220AD3A2C00B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117B20AD3A1700B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp */; };
 		DFEF11D320AD3A2C00B48494 /* Ketjev2-test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117C20AD3A1700B48494 /* Ketjev2-test.cpp */; };
@@ -65,6 +73,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF74DA2D20B266BC00DB892D /* libm4ri.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = libm4ri.la; path = ../../../../../../usr/local/lib/libm4ri.la; sourceTree = "<group>"; };
+		DF74DA2E20B266BC00DB892D /* libm4ri.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libm4ri.a; path = ../../../../../../usr/local/lib/libm4ri.a; sourceTree = "<group>"; };
+		DF74DA2F20B266BC00DB892D /* libm4ri-0.0.20140914.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libm4ri-0.0.20140914.dylib"; path = "../../../../../../usr/local/lib/libm4ri-0.0.20140914.dylib"; sourceTree = "<group>"; };
+		DF74DA3320B2684300DB892D /* myKeccak-fTrailCoreInKernelAtC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "myKeccak-fTrailCoreInKernelAtC.cpp"; sourceTree = "<group>"; };
+		DF74DA3420B2684300DB892D /* myKeccak-fTrailCoreInKernelAtC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "myKeccak-fTrailCoreInKernelAtC.hpp"; sourceTree = "<group>"; };
+		DF74DA3620B2696300DB892D /* misc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		DF74DA3720B2696300DB892D /* misc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = misc.cpp; sourceTree = "<group>"; };
+		DF74DA3920B26F9C00DB892D /* kkeccak.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kkeccak.cpp; sourceTree = "<group>"; };
+		DF74DA3A20B26F9C00DB892D /* kkeccak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kkeccak.h; sourceTree = "<group>"; };
+		DF74DA3C20B280D600DB892D /* myParts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myParts.cpp; sourceTree = "<group>"; };
+		DF74DA3D20B280D600DB892D /* myParts.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = myParts.hpp; sourceTree = "<group>"; };
+		DF74DA3F20B280FA00DB892D /* myPositions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myPositions.cpp; sourceTree = "<group>"; };
+		DF74DA4020B280FA00DB892D /* myPositions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = myPositions.hpp; sourceTree = "<group>"; };
 		DFEF116F20AD390500B48494 /* InKernelAtCTrailCoreSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InKernelAtCTrailCoreSearch; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEF117920AD3A1600B48494 /* Keccak-fPropagation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fPropagation.cpp"; sourceTree = "<group>"; };
 		DFEF117A20AD3A1600B48494 /* duplex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = duplex.h; sourceTree = "<group>"; };
@@ -161,17 +182,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF74DA3020B266BC00DB892D /* libm4ri.la in Frameworks */,
+				DF74DA3120B266BC00DB892D /* libm4ri.a in Frameworks */,
+				DF74DA3220B266BC00DB892D /* libm4ri-0.0.20140914.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF74DA2C20B266BC00DB892D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF74DA2F20B266BC00DB892D /* libm4ri-0.0.20140914.dylib */,
+				DF74DA2E20B266BC00DB892D /* libm4ri.a */,
+				DF74DA2D20B266BC00DB892D /* libm4ri.la */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFEF116620AD390500B48494 = {
 			isa = PBXGroup;
 			children = (
 				DFEF117120AD390500B48494 /* InKernelAtCTrailCoreSearch */,
 				DFEF117020AD390500B48494 /* Products */,
+				DF74DA2C20B266BC00DB892D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -257,6 +292,16 @@
 				DFEF119920AD3A1C00B48494 /* KravatteModes-test.cpp */,
 				DFEF118520AD3A1800B48494 /* KravatteModes-test.h */,
 				DFEF11AC20AD3A2100B48494 /* main.cpp */,
+				DF74DA3320B2684300DB892D /* myKeccak-fTrailCoreInKernelAtC.cpp */,
+				DF74DA3420B2684300DB892D /* myKeccak-fTrailCoreInKernelAtC.hpp */,
+				DF74DA3C20B280D600DB892D /* myParts.cpp */,
+				DF74DA3D20B280D600DB892D /* myParts.hpp */,
+				DF74DA3F20B280FA00DB892D /* myPositions.cpp */,
+				DF74DA4020B280FA00DB892D /* myPositions.hpp */,
+				DF74DA3720B2696300DB892D /* misc.cpp */,
+				DF74DA3620B2696300DB892D /* misc.h */,
+				DF74DA3920B26F9C00DB892D /* kkeccak.cpp */,
+				DF74DA3A20B26F9C00DB892D /* kkeccak.h */,
 				DFEF11C320AD3A2800B48494 /* monkey.cpp */,
 				DFEF118C20AD3A1900B48494 /* monkey.h */,
 				DFEF119520AD3A1B00B48494 /* Motorist.cpp */,
@@ -344,9 +389,11 @@
 				DFEF11E020AD3A2C00B48494 /* KravatteModes-test.cpp in Sources */,
 				DFEF11ED20AD3A2C00B48494 /* Keccak.cpp in Sources */,
 				DFEF11E220AD3A2C00B48494 /* Keccak-fTrails.cpp in Sources */,
+				DF74DA3B20B26F9D00DB892D /* kkeccak.cpp in Sources */,
 				DFEF11E620AD3A2C00B48494 /* Keccak-fDisplay.cpp in Sources */,
 				DFEF11EA20AD3A2C00B48494 /* sponge.cpp in Sources */,
 				DFEF11DE20AD3A2C00B48494 /* Keccak-fTrailCoreInKernelAtC.cpp in Sources */,
+				DF74DA3E20B280D600DB892D /* myParts.cpp in Sources */,
 				DFEF11D320AD3A2C00B48494 /* Ketjev2-test.cpp in Sources */,
 				DFEF11EE20AD3A2C00B48494 /* padding.cpp in Sources */,
 				DFEF11F920AD3A2C00B48494 /* Keccak-fTrailCore3Rounds.cpp in Sources */,
@@ -373,10 +420,13 @@
 				DFEF11EB20AD3A2C00B48494 /* KeccakCrunchyContest.cpp in Sources */,
 				DFEF11D920AD3A2C00B48494 /* Ketjev2.cpp in Sources */,
 				DFEF11FA20AD3A2C00B48494 /* transformations.cpp in Sources */,
+				DF74DA3820B2696400DB892D /* misc.cpp in Sources */,
 				DFEF11D820AD3A2C00B48494 /* Keccak-fDCLC.cpp in Sources */,
+				DF74DA3520B2684300DB892D /* myKeccak-fTrailCoreInKernelAtC.cpp in Sources */,
 				DFEF11F220AD3A2C00B48494 /* Keyakv2-test.cpp in Sources */,
 				DFEF11D720AD3A2C00B48494 /* Keccak-fTrailCoreRows.cpp in Sources */,
 				DFEF11DF20AD3A2C00B48494 /* Kravatte.cpp in Sources */,
+				DF74DA4120B280FA00DB892D /* myPositions.cpp in Sources */,
 				DFEF11FB20AD3A2C00B48494 /* Keccak-fTrailCoreParity.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +541,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -499,6 +551,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
