@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InKernelAtCTrailCoreSearch/Keccak-fTrailCoreParity.cpp"
+            timestampString = "560506812.0791841"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "495"
+            endingLineNumber = "495"
+            landmarkName = "KeccakFTwoRoundTrailCoreWithGivenParityIterator::KeccakFTwoRoundTrailCoreWithGivenParityIterator(const KeccakFPropagation&amp; aDCorLC, const vector&lt;RowValue&gt;&amp; aParity, int aMaxWeight, bool aOrbitals)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InKernelAtCTrailCoreSearch/Keccak-fTrailCoreParity.cpp"
+            timestampString = "560506875.502213"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "497"
+            endingLineNumber = "497"
+            landmarkName = "KeccakFTwoRoundTrailCoreWithGivenParityIterator::KeccakFTwoRoundTrailCoreWithGivenParityIterator(const KeccakFPropagation&amp; aDCorLC, const vector&lt;RowValue&gt;&amp; aParity, int aMaxWeight, bool aOrbitals)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InKernelAtCTrailCoreSearch/Keccak-fTrailCoreParity.cpp"
+            timestampString = "560506882.641865"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "KeccakFTrailWithGivenParityIterator::KeccakFTrailWithGivenParityIterator(const KeccakFPropagation&amp; aDCorLC, const vector&lt;RowValue&gt;&amp; aParity, bool aOrbitals)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InKernelAtCTrailCoreSearch/Keccak-fTrailCoreParity.cpp"
+            timestampString = "560509105.78036"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "KeccakFTrailWithGivenParityIterator::KeccakFTrailWithGivenParityIterator(const KeccakFPropagation&amp; aDCorLC, const vector&lt;RowValue&gt;&amp; aParity, bool aOrbitals)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

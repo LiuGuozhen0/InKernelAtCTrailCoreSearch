@@ -80,6 +80,9 @@ public:
       * @param  laneSize    The lane size.
       */
     void zTranslate(int dz, unsigned int aLaneSize);
+
+    void directRhoPi();
+    void inverseRhoPi();
 };
 
 /** Class containing the x, z coordinates of a column. */

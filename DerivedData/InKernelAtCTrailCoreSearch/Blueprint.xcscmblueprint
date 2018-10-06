@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B38CDD249BF5473C12C58C466C5D214C096BD603",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D63626D016DFD033F3403089868AAFD724EC6B6F" : 0,
+    "B38CDD249BF5473C12C58C466C5D214C096BD603" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FF5D3E6C-4479-455C-A39C-6920749B3633",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D63626D016DFD033F3403089868AAFD724EC6B6F" : "..\/..\/..\/Documents\/GitHub\/TrailSearch-KeccakToolsExtensions",
+    "B38CDD249BF5473C12C58C466C5D214C096BD603" : "InKernelAtCTrailCoreSearch\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "InKernelAtCTrailCoreSearch",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "InKernelAtCTrailCoreSearch.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LiuGuozhen0\/InKernelAtCTrailCoreSearch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B38CDD249BF5473C12C58C466C5D214C096BD603"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LiuGuozhen0\/TrailSearch-KeccakToolsExtensions.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D63626D016DFD033F3403089868AAFD724EC6B6F"
+    }
+  ]
+}

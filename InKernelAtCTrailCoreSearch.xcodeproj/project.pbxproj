@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5A9A1C215E4DB400A9F385 /* ComponentEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A9A1A215E4DB400A9F385 /* ComponentEffect.cpp */; };
+		DF74DB5C20B50D3900DB892D /* MyTrailCoreInKernelAtCStructureConstruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF74DB5A20B50D3900DB892D /* MyTrailCoreInKernelAtCStructureConstruct.cpp */; };
+		DF74DB5F20B50D5E00DB892D /* myTrailCoreInKernelAtCFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF74DB5D20B50D5E00DB892D /* myTrailCoreInKernelAtCFilter.cpp */; };
+		DF74DB6220B5828500DB892D /* MyTrailCoreInKernelAtC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF74DB6020B5828500DB892D /* MyTrailCoreInKernelAtC.cpp */; };
+		DF74DB6520C010B600DB892D /* myParts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF74DB6320C010B600DB892D /* myParts.cpp */; };
 		DFEF11D120AD3A2C00B48494 /* Keccak-fPropagation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117920AD3A1600B48494 /* Keccak-fPropagation.cpp */; };
 		DFEF11D220AD3A2C00B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117B20AD3A1700B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp */; };
 		DFEF11D320AD3A2C00B48494 /* Ketjev2-test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFEF117C20AD3A1700B48494 /* Ketjev2-test.cpp */; };
@@ -65,6 +70,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B5A9A1A215E4DB400A9F385 /* ComponentEffect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ComponentEffect.cpp; sourceTree = "<group>"; };
+		0B5A9A1B215E4DB400A9F385 /* ComponentEffect.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ComponentEffect.hpp; sourceTree = "<group>"; };
+		DF74DB5A20B50D3900DB892D /* MyTrailCoreInKernelAtCStructureConstruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyTrailCoreInKernelAtCStructureConstruct.cpp; sourceTree = "<group>"; };
+		DF74DB5B20B50D3900DB892D /* MyTrailCoreInKernelAtCStructureConstruct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyTrailCoreInKernelAtCStructureConstruct.hpp; sourceTree = "<group>"; };
+		DF74DB5D20B50D5E00DB892D /* myTrailCoreInKernelAtCFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myTrailCoreInKernelAtCFilter.cpp; sourceTree = "<group>"; };
+		DF74DB5E20B50D5E00DB892D /* myTrailCoreInKernelAtCFilter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = myTrailCoreInKernelAtCFilter.hpp; sourceTree = "<group>"; };
+		DF74DB6020B5828500DB892D /* MyTrailCoreInKernelAtC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyTrailCoreInKernelAtC.cpp; sourceTree = "<group>"; };
+		DF74DB6120B5828500DB892D /* MyTrailCoreInKernelAtC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyTrailCoreInKernelAtC.hpp; sourceTree = "<group>"; };
+		DF74DB6320C010B600DB892D /* myParts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myParts.cpp; sourceTree = "<group>"; };
+		DF74DB6420C010B600DB892D /* myParts.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = myParts.hpp; sourceTree = "<group>"; };
 		DFEF116F20AD390500B48494 /* InKernelAtCTrailCoreSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InKernelAtCTrailCoreSearch; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEF117920AD3A1600B48494 /* Keccak-fPropagation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fPropagation.cpp"; sourceTree = "<group>"; };
 		DFEF117A20AD3A1600B48494 /* duplex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = duplex.h; sourceTree = "<group>"; };
@@ -107,7 +122,6 @@
 		DFEF119F20AD3A1E00B48494 /* Keccak-f25LUT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-f25LUT.h"; sourceTree = "<group>"; };
 		DFEF11A020AD3A1F00B48494 /* Keccak-fTrails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrails.h"; sourceTree = "<group>"; };
 		DFEF11A120AD3A1F00B48494 /* Keccak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Keccak.h; sourceTree = "<group>"; };
-		DFEF11A220AD3A1F00B48494 /* KeccakTools.dox */ = {isa = PBXFileReference; lastKnownFileType = text; path = KeccakTools.dox; sourceTree = "<group>"; };
 		DFEF11A320AD3A1F00B48494 /* Ketjev2-test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ketjev2-test.h"; sourceTree = "<group>"; };
 		DFEF11A420AD3A2000B48494 /* spongetree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spongetree.cpp; sourceTree = "<group>"; };
 		DFEF11A520AD3A2000B48494 /* Keccak-fCodeGen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fCodeGen.cpp"; sourceTree = "<group>"; };
@@ -241,7 +255,6 @@
 				DFEF11A120AD3A1F00B48494 /* Keccak.h */,
 				DFEF11B020AD3A2300B48494 /* KeccakCrunchyContest.cpp */,
 				DFEF119120AD3A1A00B48494 /* KeccakCrunchyContest.h */,
-				DFEF11A220AD3A1F00B48494 /* KeccakTools.dox */,
 				DFEF117C20AD3A1700B48494 /* Ketjev2-test.cpp */,
 				DFEF11A320AD3A1F00B48494 /* Ketjev2-test.h */,
 				DFEF118F20AD3A1A00B48494 /* Ketjev2.cpp */,
@@ -257,6 +270,16 @@
 				DFEF119920AD3A1C00B48494 /* KravatteModes-test.cpp */,
 				DFEF118520AD3A1800B48494 /* KravatteModes-test.h */,
 				DFEF11AC20AD3A2100B48494 /* main.cpp */,
+				0B5A9A1A215E4DB400A9F385 /* ComponentEffect.cpp */,
+				0B5A9A1B215E4DB400A9F385 /* ComponentEffect.hpp */,
+				DF74DB6020B5828500DB892D /* MyTrailCoreInKernelAtC.cpp */,
+				DF74DB6320C010B600DB892D /* myParts.cpp */,
+				DF74DB6420C010B600DB892D /* myParts.hpp */,
+				DF74DB6120B5828500DB892D /* MyTrailCoreInKernelAtC.hpp */,
+				DF74DB5A20B50D3900DB892D /* MyTrailCoreInKernelAtCStructureConstruct.cpp */,
+				DF74DB5B20B50D3900DB892D /* MyTrailCoreInKernelAtCStructureConstruct.hpp */,
+				DF74DB5D20B50D5E00DB892D /* myTrailCoreInKernelAtCFilter.cpp */,
+				DF74DB5E20B50D5E00DB892D /* myTrailCoreInKernelAtCFilter.hpp */,
 				DFEF11C320AD3A2800B48494 /* monkey.cpp */,
 				DFEF118C20AD3A1900B48494 /* monkey.h */,
 				DFEF119520AD3A1B00B48494 /* Motorist.cpp */,
@@ -339,6 +362,8 @@
 				DFEF11D220AD3A2C00B48494 /* Keccak-fTrailExtensionBasedOnParity.cpp in Sources */,
 				DFEF11DB20AD3A2C00B48494 /* Keccak-fTrailExtension.cpp in Sources */,
 				DFEF11EF20AD3A2C00B48494 /* Keccak-fPositions.cpp in Sources */,
+				0B5A9A1C215E4DB400A9F385 /* ComponentEffect.cpp in Sources */,
+				DF74DB5F20B50D5E00DB892D /* myTrailCoreInKernelAtCFilter.cpp in Sources */,
 				DFEF11F620AD3A2C00B48494 /* Keccak-fTree.cpp in Sources */,
 				DFEF11D520AD3A2C00B48494 /* duplex.cpp in Sources */,
 				DFEF11E020AD3A2C00B48494 /* KravatteModes-test.cpp in Sources */,
@@ -347,12 +372,14 @@
 				DFEF11E620AD3A2C00B48494 /* Keccak-fDisplay.cpp in Sources */,
 				DFEF11EA20AD3A2C00B48494 /* sponge.cpp in Sources */,
 				DFEF11DE20AD3A2C00B48494 /* Keccak-fTrailCoreInKernelAtC.cpp in Sources */,
+				DF74DB6520C010B600DB892D /* myParts.cpp in Sources */,
 				DFEF11D320AD3A2C00B48494 /* Ketjev2-test.cpp in Sources */,
 				DFEF11EE20AD3A2C00B48494 /* padding.cpp in Sources */,
 				DFEF11F920AD3A2C00B48494 /* Keccak-fTrailCore3Rounds.cpp in Sources */,
 				DFEF11F020AD3A2C00B48494 /* progress.cpp in Sources */,
 				DFEF11E920AD3A2C00B48494 /* main.cpp in Sources */,
 				DFEF11D120AD3A2C00B48494 /* Keccak-fPropagation.cpp in Sources */,
+				DF74DB5C20B50D3900DB892D /* MyTrailCoreInKernelAtCStructureConstruct.cpp in Sources */,
 				DFEF11F320AD3A2C00B48494 /* Kravatte-test.cpp in Sources */,
 				DFEF11F520AD3A2C00B48494 /* monkey.cpp in Sources */,
 				DFEF11F720AD3A2C00B48494 /* bitstring.cpp in Sources */,
@@ -375,6 +402,7 @@
 				DFEF11FA20AD3A2C00B48494 /* transformations.cpp in Sources */,
 				DFEF11D820AD3A2C00B48494 /* Keccak-fDCLC.cpp in Sources */,
 				DFEF11F220AD3A2C00B48494 /* Keyakv2-test.cpp in Sources */,
+				DF74DB6220B5828500DB892D /* MyTrailCoreInKernelAtC.cpp in Sources */,
 				DFEF11D720AD3A2C00B48494 /* Keccak-fTrailCoreRows.cpp in Sources */,
 				DFEF11DF20AD3A2C00B48494 /* Kravatte.cpp in Sources */,
 				DFEF11FB20AD3A2C00B48494 /* Keccak-fTrailCoreParity.cpp in Sources */,
